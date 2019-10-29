@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :announcements
+  resources :joinuserevents
   resources :gameserverinfos
   resources :users
   resources :voips
